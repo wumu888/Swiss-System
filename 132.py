@@ -4,10 +4,10 @@ import mysql.connector
 from prettytable import PrettyTable
 
 conn = mysql.connector.connect(
-    host='127.0.0.1',
-    user='root',
-    password='nivekkevin',
-    database='project_data')
+    host='YourHost',
+    user='YourUsername',
+    password='YourPassword',
+    database='YourDatabase')
 
 cursor = conn.cursor()
 
